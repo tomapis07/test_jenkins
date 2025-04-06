@@ -10,6 +10,6 @@ pipeline {
             steps {
                 sh 'pip --freeze'
             }
+        }
     }
 }
-
