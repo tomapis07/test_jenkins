@@ -6,6 +6,10 @@ pipeline {
                 sh 'python --version'
             }
         }
+        stage('test') {
+            steps {
+                sh 'pip --freeze'
+            }
     }
 }
 
